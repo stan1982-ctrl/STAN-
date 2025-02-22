@@ -1,0 +1,11 @@
+let hashTable = new Map();
+
+// Adding key-value pairs
+hashTable.set('key1', 'value1');
+hashTable.set('key2', 'value2');
+
+// Accessing values
+console.log(hashTable.get('key1')); // Output: value1
+
+// Deleting key-value pairs
+hashTable.delete('key2');
